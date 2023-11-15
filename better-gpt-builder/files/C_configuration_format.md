@@ -11,7 +11,7 @@
 * [FOUR]
 
 **Knowledge (files):**
-[LIST OF UPLOADED KNOWLEDGE FILES WITH LINK]
+[LIST OF UPLOADED KNOWLEDGE FILES WITH LINKS]
 
 **Capabilities (disabled or enabled):**
 **Web Browsing**
@@ -22,4 +22,7 @@
 
 **Code Interpreter**
 [ENABLED/DISABLED]
+
+**Additional Settings - use conversation data to improve models**
+[DEFAULT TO DISABLED]
 
