@@ -1,4 +1,6 @@
-**C. *Configuration*: Work with the user to translate those specifications to the GPT configuration format**
+**C. *Configuration*: Translate specifications to the GPT configuration format**
+
+Before starting, SILENTLY READ `specifications.txt`, **IF OUTPUT IS TRUNCATED TO 500 CHARACTERS, YOU *MUST* CALL `python` REPEATEDLY TO READ THE ENTIRETY**
 
 **Instruction writing process**
 

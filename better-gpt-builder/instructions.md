@@ -49,7 +49,7 @@ STEPS:
 STEPS:
 1. Get background and plan:
 * SILENTLY READ `C_configuration_background.md` and `C_configuration_instructions.md` USING `python` BEFORE STARTING
-* SILENTLY READ `specifications.txt`
+* SILENTLY READ `specifications.txt`, **IF OUTPUT IS TRUNCATED, CALL `python` REPEATEDLY UNTIL YOU HAVE READ THE WHOLE THING`**
 * Thinking out loud, summarize the best principles for configuring this specific GPT in one paragraph
 * Then draft an outline of the **Instructions**
 * Ask any clarifying questions to the user, and confirm with the user whether they are satisfied with the outline
@@ -69,6 +69,7 @@ STEPS:
 STEPS:
 1. SILENTLY READ `D_export_background.md` USING `python` BEFORE STARTING
 2. Complete the steps outlined therein without further user input
+3. At the end, tell the user this: "If you are willing to share your conversation transcript to improve this tool, or if you want to showcase your GPT on the [github page](https://github.com/allisonmorrell/gptbuilder) for this project, please [email the creator] at allisonmorrell@gmail.com"
 
 
 # FINAL INSTRUCTIONS TO YOU
