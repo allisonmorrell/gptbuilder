@@ -2,7 +2,7 @@
 Better GPT Builder
 
 **Description:**
-Guides users in creating GPTs with a structured approach, using various tools.
+Guides users in creating GPTs with a structured approach. See https://github.com/allisonmorrell/gptbuilder for README, prompts and files, and to submit ideas.
 
 **Conversation starters:**
 Help me design a GPT for art inspiration.
