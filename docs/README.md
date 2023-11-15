@@ -2,20 +2,24 @@
 Repository of my thoughts on creating GPTs, and instructions and files for Better GPT Builder
 
 # Better GPT Builder
-My GPT Better GPT Builder is an ongoing experiment in exploring the potential of structured interaction and workflows using GPTs. I'm trying to push the limits of how much you can reasonably reliably direct the behaviour of a chatbot with just instructions, code and files.
+My GPT **[Better GPT Builder](https://chat.openai.com/g/g-0CAiaGJje-better-gpt-builder)** is an ongoing experiment in exploring the potential of structured interaction and workflows using GPTs. I'm trying to push the limits of how much you can reasonably reliably direct the behaviour of a chatbot with just instructions, code and files.
 
 ## What - a GPT to build GPTs
 Better GPT Builder implements some of my thoughts on ways to design good GPTs and the best way to work with language models. 
 
 It walks the user through a process from brainstorming, outlining desired behaviour, writing instructions and providing download links for the final content that they can paste into the OpenAI configuration panel when creating a GPT.
 
+Despite the "Better" in the name, there's no guarantee mine will produce better results! At the very least, it will be thought-provoking.
+
+## Example GPTs created by Better GPT Builder
+* **[ArtMuse](https://chat.openai.com/g/g-kY3woUU1m-artmuse)**: A conversational AI designed to spark creativity and offer visual art inspirations through dialogue and DALL-E visualizations.
+    * Creation [transcript](https://chat.openai.com/share/bc93a6ac-311e-41b6-b3ae-62e2879c5ad2) dated November 14, 2023
+
 ## Why - enhancing the GPT creation process
 I started this project because I find OpenAI's chatbot interface for creating GPTs frustrating in various ways. It tends to result in fairly short and general instructions that don't capture most of what the user says. It can't seem to follow direct instructions like "put exactly this text into the instructions". It will also overwrite previous instructions and lacks versioning.
 
-Despite the "Better" in the name, there's no guarantee mine will produce better results! At the very least, it will be thought-provoking.
-
 ## How - a structured approach
-In my experience, GPTs tend to struggle with lengthy and specific instructions. Better GPT Builder is designed to proceed step by step through a specific workflow, using three techniques to attempt to stay on track: 
+In my experience, GPTs tend to struggle with lengthy and specific instructions. Better GPT Builder is designed to proceed step by step through a specific workflow, using several techniques to attempt to stay on track: 
 1. The instructions use lettered stages and numbered substages.
 2. The instructions direct the GPT to 'silently read' specific uploaded files using Code Interpreter at specific stages before proceeding. Those files contain more instructions.
 3. The instructions direct the GPT to use a specific format for all responses, and that format includes a reference to the letter and number of the current stage.
@@ -23,7 +27,7 @@ In my experience, GPTs tend to struggle with lengthy and specific instructions. 
 TBD how well this will work! Like I said, it's an experiment.
 
 # What's the point of GPTs? 
-In my opinion, the most valuable applications of generative AI will not be chatbots. Chatbots lack affordances - they don't tell the user what they can or should do. 
+In my opinion, the most valuable applications of generative AI will not be chatbots. Chatbots often lack affordances - they don't tell the user what they can or should do. 
 
 Further, the best chatbots incorporate more structure behind the scenes - for example, displaying documents to the user, presenting the user with action buttons, and overall using the chatbot UI to facilitate a well-designed workflow and application features. If you know want to do, you can get far with this approach. Personally I've used [Chainlit](https://docs.chainlit.io/get-started/overview) to build these. 
 
