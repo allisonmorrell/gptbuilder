@@ -27,9 +27,9 @@ In my experience, GPTs tend to struggle with lengthy and specific instructions. 
 TBD how well this will work! Like I said, it's an experiment.
 
 # What's the point of GPTs? 
-In my opinion, the most valuable applications of generative AI will not be chatbots. Chatbots often lack affordances - they don't tell the user what they can or should do. 
+In my opinion, many of the most valuable applications of generative AI will not be chatbots. Chatbots often lack affordances - they don't tell the user what they can or should do. 
 
-Further, the best chatbots incorporate more structure behind the scenes - for example, displaying documents to the user, presenting the user with action buttons, and overall using the chatbot UI to facilitate a well-designed workflow and application features. If you know want to do, you can get far with this approach. Personally I've used [Chainlit](https://docs.chainlit.io/get-started/overview) to build these. 
+Further, the best chatbots incorporate more structure behind the scenes - for example, displaying documents to the user, presenting the user with action buttons, and overall using the chatbot UI to facilitate a well-designed workflow and application features. If you know what you want to do, you can get far with this approach. Personally I've used [Chainlit](https://docs.chainlit.io/get-started/overview) to build these. 
 
 Does this mean that GPTs are useless? No! They're a great starting point for exploration of the potential applications for generative AI, in terms of: 
 * **What is desirable:** what do users get more excited about? How do they want AI to help them?
