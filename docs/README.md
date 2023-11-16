@@ -26,6 +26,16 @@ In my experience, GPTs tend to struggle with lengthy and specific instructions. 
 
 TBD how well this will work! Like I said, it's an experiment.
 
+## Background on GPTs
+For background on how to create a GPT, see [OpenAI's article](https://help.openai.com/en/articles/8554397-creating-a-gpt).
+
+Simon Willison - [Exploring GPTs: ChatGPT in a trench coat?](https://simonwillison.net/2023/Nov/15/gpts/)
+* explanation of creator and configuration panel
+* also contains full prompt for creator
+
+Ethan Mollick's article [Almost an Agent: What GPTs can do](https://www.oneusefulthing.org/p/almost-an-agent-what-gpts-can-do) is a great backgrounder on the possibilities for using GPTs.
+
+
 # What's the point of GPTs? 
 In my opinion, many of the most valuable applications of generative AI will not be chatbots. Chatbots often lack affordances - they don't tell the user what they can or should do. 
 
@@ -37,10 +47,6 @@ Does this mean that GPTs are useless? No! They're a great starting point for exp
 
 Most importantly, GPTs are a low-barrier opportunity for users to create tools that help them and others. 
 
-## Background on GPTs
-For background on how to create a GPT, see [OpenAI's article](https://help.openai.com/en/articles/8554397-creating-a-gpt).
-
-Ethan Mollick's article [Almost an Agent: What GPTs can do](https://www.oneusefulthing.org/p/almost-an-agent-what-gpts-can-do) is a great backgrounder on the possibilities for using GPTs.
 
 # Why this repository?
 I believe that more people should share their prompts and thinking process for the sake of all being able to develop the best techniques.
