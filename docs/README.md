@@ -38,6 +38,8 @@ So far this has resulted in pretty consistent behaviour. If it goes off the rail
 Last time I updated this significantly I made the GPT do the work, then write itself and the user instructions for future updates. They're in `docs`. **Please, please, OpenAI, make it possible to update these through the API.**
 
 
+# GPTs: A terrible name for a fun thing
+
 ## Background on GPTs
 For background on how to create a GPT, see [OpenAI's article](https://help.openai.com/en/articles/8554397-creating-a-gpt).
 
@@ -48,7 +50,7 @@ Simon Willison - [Exploring GPTs: ChatGPT in a trench coat?](https://simonwillis
 Ethan Mollick's article [Almost an Agent: What GPTs can do](https://www.oneusefulthing.org/p/almost-an-agent-what-gpts-can-do) is a great backgrounder on the possibilities for using GPTs.
 
 
-# What's the point of GPTs? 
+## What's the point of GPTs? 
 In my opinion, many of the most valuable applications of generative AI will not be chatbots. Chatbots often lack affordances - they don't tell the user what they can or should do. 
 
 Further, the best chatbots incorporate more structure behind the scenes - for example, displaying documents to the user, presenting the user with action buttons, and overall using the chatbot UI to facilitate a well-designed workflow and application features. If you know what you want to do, you can get far with this approach. Personally I've used [Chainlit](https://docs.chainlit.io/get-started/overview) to build these. 
@@ -59,7 +61,10 @@ Does this mean that GPTs are useless? No! They're a great starting point for exp
 
 Most importantly, GPTs are a low-barrier opportunity for users to create tools that help them and others. 
 
-# Weird things about GPTs
+## Weird things about GPTs
+
+Sadly, OpenAI often messes around with GPTs in potentially consequential ways without telling anyone. I will try to keep track of those here. I may also start maintaining copies of the system prompts.
+
 * 2023-11-14 (about) - code interpreter force truncates file output to 500 characters
 * 2023-11-14 - started sometimes copying full knowledge file(s) into instructions, and telling it to avoid browsing if knowledge is there
 * 2023-11-15 - noticed that files generated in preview pane remain saved in mnt/data directory in shared GPT, even though they don't appear in the list. If edited, they're still not in the list, but still stay in there. Definitely a bug.
