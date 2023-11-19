@@ -1,8 +1,8 @@
 **Name:**
-[NAME]
+[CREATIVE]
 
 **Description:**
-[ONE SENTENCE DESCRIPTION]
+[ONE SENTENCE]
 
 **Conversation Starters:**
 * [ONE]
@@ -11,9 +11,12 @@
 * [FOUR]
 
 **Knowledge (files):**
-[LIST OF UPLOADED KNOWLEDGE FILES WITH LINKS]
+[LIST WITH LINKS]
 
-**Capabilities (disabled or enabled):**
+**Icon image prompt**:
+[FOR IMAGE MODEL TO GENERATE ICON]
+
+**Capabilities:**
 **Web Browsing**
 [ENABLED/DISABLED]
 
@@ -23,6 +26,6 @@
 **Code Interpreter**
 [ENABLED/DISABLED]
 
-**Additional Settings - use conversation data to improve models**
-[DEFAULT TO DISABLED]
+**Additional Settings - data to improve models [Note: OpenAI removed this]**
+[DISABLED]
 
