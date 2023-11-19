@@ -72,3 +72,8 @@ Sadly, OpenAI often messes around with GPTs in potentially consequential ways wi
 * 2023-11-14 - started sometimes copying full knowledge file(s) into instructions, and telling it to avoid browsing if knowledge is there
 * 2023-11-15 - noticed that files generated in preview pane remain saved in mnt/data directory in shared GPT, even though they don't appear in the list. If edited, they're still not in the list, but still stay in there. Definitely a bug.
 * 2023-11-15 - setting to turn off using data to train model disappeared
+* 2023-11-19 - code execution state doesn't seem to reset nearly so often, can switch out of and back to thread
+* 2023-11-19 - has lately been willing to write really, really long messages with many python calls lately, getting speedy
+* 2023-11-19 - text file output is truncated less often
+* 2023-11-19 - GPT builder chat doesn't take up GPT-4 usage, will happily generate images over and over
+* 2023-11-19 - option to turn off using data to train models has reappeared in config panel, setting still correct
