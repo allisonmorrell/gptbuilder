@@ -1,5 +1,5 @@
 # gptbuilder
-Repository of my thoughts on creating GPTs, and instructions and files for Better GPT Builder.
+Repository of my thoughts on creating GPTs, and instructions and files for [Better GPT Builder](https://chat.openai.com/g/g-0CAiaGJje-better-gpt-builder).
 
 If you are willing to share your conversation transcript to improve this tool, or if you want to showcase your GPT in the list below, please open an issue or [submit this form](https://forms.gle/he2qFcpdjdrEBpaq6).
 
@@ -19,6 +19,9 @@ It walks the user through a process from brainstorming, outlining desired behavi
 ## Example GPTs created by Better GPT Builder
 * **[ArtMuse](https://chat.openai.com/g/g-kY3woUU1m-artmuse)**: A conversational AI designed to spark creativity and offer visual art inspirations through dialogue and DALL-E visualizations.
     * Creation [transcript](https://chat.openai.com/share/bc93a6ac-311e-41b6-b3ae-62e2879c5ad2) dated November 14, 2023
+* **[Career Assistant](https://chat.openai.com/g/g-EbYpo1ISQ-career-assistant)**: Coaches user on resume and LinkedIn profile updates, and general advice and help.
+    * Creation [transcript](https://chat.openai.com/share/87b84ae4-b229-4347-b4da-a8e800054e50) first iteration
+    * Builder improvement [transcript](https://chat.openai.com/share/c0b187de-af40-47da-81a9-5175508bee0c)
 
 ## Why - enhancing the GPT creation process
 I started this project because I find OpenAI's chatbot interface for creating GPTs frustrating in various ways. It tends to result in fairly short and general instructions that don't capture most of what the user says. It can't seem to follow direct instructions like "put exactly this text into the instructions". It will also overwrite previous instructions and lacks versioning.

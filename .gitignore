@@ -5,6 +5,7 @@ __pycache__/
 pyproject.toml
 
 .replit
+replit.nix
 
 poetry.lock
 
