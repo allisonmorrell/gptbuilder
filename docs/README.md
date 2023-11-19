@@ -47,8 +47,13 @@ Does this mean that GPTs are useless? No! They're a great starting point for exp
 
 Most importantly, GPTs are a low-barrier opportunity for users to create tools that help them and others. 
 
-
 # Why this repository?
 I believe that more people should share their prompts and thinking process for the sake of all being able to develop the best techniques.
 
 In any case, there's **no 100% reliable way of protecting prompts** from someone who asks in the right way. I don't think building GPTs will be some huge business opportunity. Instead, I hope people will share their ideas and techniques so that everyone can get the most value out of these tools.
+
+# Weird things about GPTs
+* 2023-11-14 (about) - code interpreter force truncates file output to 500 characters
+* 2023-11-14 - started sometimes copying full knowledge file(s) into instructions, and telling it to avoid browsing if knowledge is there
+* 2023-11-15 - noticed that files generated in preview pane remain saved in mnt/data directory in shared GPT, even though they don't appear in the list. If edited, they're still not in the list, but still stay in there. Definitely a bug.
+* 2023-11-15 - setting to turn off using data to train model disappeared
