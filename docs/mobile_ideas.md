@@ -12,3 +12,9 @@ Can a GPT spin up a multi-agent conversation using just format/structure?
 Use single format, use square bracket placeholders, can stop at any time and continue by yourself
 
 e.g. initial response, config, questions/suggestions
+
+# Enhancements
+
+## Pre-written instruction sections
+
+e.g. conducting research project using file explorer or browser while writing results to text file
