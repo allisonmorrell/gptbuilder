@@ -22,6 +22,8 @@ It walks the user through a process from brainstorming, outlining desired behavi
 * **[Career Assistant](https://chat.openai.com/g/g-EbYpo1ISQ-career-assistant)**: Coaches user on resume and LinkedIn profile updates, and general advice and help.
     * Creation [transcript](https://chat.openai.com/share/87b84ae4-b229-4347-b4da-a8e800054e50) first iteration
     * Builder improvement [transcript](https://chat.openai.com/share/c0b187de-af40-47da-81a9-5175508bee0c)
+* **[Photo Era Identifier](https://chat.openai.com/g/g-iAP1EJ5Bn-photo-era-identifier)**: Identifies photo eras with historical context.
+    * Creation [transcript](https://chat.openai.com/share/620cf78c-c48f-47ce-857d-7205d6115fbe) (this demonstrates a capacity to execute multiple steps in a row upon request)
 
 ## Why - enhancing the GPT creation process
 I started this project because I find OpenAI's chatbot interface for creating GPTs frustrating in various ways. It tends to result in fairly short and general instructions that don't capture most of what the user says. It can't seem to follow direct instructions like "put exactly this text into the instructions". It will also overwrite previous instructions and lacks versioning.
@@ -34,17 +36,6 @@ In my experience, GPTs tend to struggle with lengthy and specific instructions. 
 3. The instructions direct the GPT to use a specific format for all responses, and that format includes a reference to the letter and number of the current stage.
 
 So far this has resulted in pretty consistent behaviour. If it goes off the rails in a chat, **please consider submitting an issue so I can look at it.**
-
-
-## It gets really meta
-
-Last time I updated this significantly I made the GPT do the work, then write itself and the user instructions for future updates. They're in `docs`. **Please, please, OpenAI, make it possible to update these through the API.**
-
-For example, to write notes for an ongoing project, an example prompt: 
-
-```text
-Now that we've done all of that, I want to create some notes that you can use to refresh your memory on all that we have done so far. You will write markdown files to do this, then give me a download for a zipped directory of all of them. BE EXTREMELY THOROUGH! Your notes should be about half the length of the conversation so far. Create seperate markdown files with meaningful names, that are each fairly short to cover different topics. Include a full list of the files in your directory and what they are good for. Continue until everything is done without further input from me
-```
 
 
 # GPTs: A terrible name for a fun thing
@@ -84,3 +75,5 @@ Sadly, OpenAI often messes around with GPTs in potentially consequential ways wi
 * 2023-11-19 - GPT builder chat doesn't take up GPT-4 usage, will happily generate images over and over
 * 2023-11-19 - option to turn off using data to train models has reappeared in config panel for some GPTs and not others
 * 2023-11-20 - the configuration panel will accept .zip files, then code interpreter can unzip and read them. They will appear blank to the files browser however.
+* 2024-01-14 - instructions for browser significantly changed from previous, could affect operation of GPTs which use browser
+* 2024-01-15 - no setting apparently available for controlling use of data
