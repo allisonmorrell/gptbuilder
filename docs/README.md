@@ -40,6 +40,12 @@ So far this has resulted in pretty consistent behaviour. If it goes off the rail
 
 Last time I updated this significantly I made the GPT do the work, then write itself and the user instructions for future updates. They're in `docs`. **Please, please, OpenAI, make it possible to update these through the API.**
 
+For example, to write notes for an ongoing project, an example prompt: 
+
+```text
+Now that we've done all of that, I want to create some notes that you can use to refresh your memory on all that we have done so far. You will write markdown files to do this, then give me a download for a zipped directory of all of them. BE EXTREMELY THOROUGH! Your notes should be about half the length of the conversation so far. Create seperate markdown files with meaningful names, that are each fairly short to cover different topics. Include a full list of the files in your directory and what they are good for. Continue until everything is done without further input from me
+```
+
 
 # GPTs: A terrible name for a fun thing
 
@@ -73,7 +79,8 @@ Sadly, OpenAI often messes around with GPTs in potentially consequential ways wi
 * 2023-11-15 - noticed that files generated in preview pane remain saved in mnt/data directory in shared GPT, even though they don't appear in the list. If edited, they're still not in the list, but still stay in there. Definitely a bug.
 * 2023-11-15 - setting to turn off using data to train model disappeared
 * 2023-11-19 - code execution state doesn't seem to reset nearly so often, can switch out of and back to thread
-* 2023-11-19 - has lately been willing to write really, really long messages with many python calls lately, getting speedy
-* 2023-11-19 - text file output is truncated less often
+* 2023-11-19 - has lately been willing to write really, really long messages with many python calls lately
+* 2023-11-19 - text file output is truncated less often but still sometimes to 1000 characters and sometimes 500
 * 2023-11-19 - GPT builder chat doesn't take up GPT-4 usage, will happily generate images over and over
-* 2023-11-19 - option to turn off using data to train models has reappeared in config panel, setting still correct
+* 2023-11-19 - option to turn off using data to train models has reappeared in config panel for some GPTs and not others
+* 2023-11-20 - the configuration panel will accept .zip files, then code interpreter can unzip and read them. They will appear blank to the files browser however.
