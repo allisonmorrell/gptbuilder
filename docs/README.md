@@ -3,11 +3,6 @@ Repository of my thoughts on creating GPTs, and instructions and files for [Bett
 
 If you are willing to share your conversation transcript to improve this tool, or if you want to showcase your GPT in the list below, please open an issue or [submit this form](https://forms.gle/he2qFcpdjdrEBpaq6).
 
-# Why this repository?
-I believe that more people should share their prompts and thinking process for the sake of all being able to develop the best techniques.
-
-In any case, there's **no 100% reliable way of protecting prompts** from someone who asks in the right way. I don't think building GPTs will be some huge business opportunity. Instead, I hope people will share their ideas and techniques so that everyone can get the most value out of these tools. There should be open-source GPTs the same as any other useful software thing!
-
 # Better GPT Builder
 **[Better GPT Builder](https://chat.openai.com/g/g-0CAiaGJje-better-gpt-builder)** is an ongoing experiment in exploring the potential of structured interaction and workflows using GPTs. I'm trying to push the limits of how much you can reasonably reliably direct the behaviour of a chatbot with just instructions, code and files. It also iterates on itself and attempts to improve its own instructions.
 
@@ -15,6 +10,11 @@ In any case, there's **no 100% reliable way of protecting prompts** from someone
 Better GPT Builder implements some of my thoughts on ways to design good GPTs and the best way to work with language models. 
 
 It walks the user through a process from brainstorming, outlining desired behaviour, writing instructions and providing download links for the final content that they can paste into the OpenAI configuration panel when creating a GPT.
+
+## Why this repository?
+I believe that more people should share their prompts and thinking process for the sake of all being able to develop the best techniques.
+
+In any case, there's **no 100% reliable way of protecting prompts** from someone who asks in the right way. I don't think building GPTs will be some huge business opportunity. Instead, I hope people will share their ideas and techniques so that everyone can get the most value out of these tools. There should be open-source GPTs, the same as any other useful software thing!
 
 ## Example GPTs created by Better GPT Builder
 * **[ArtMuse](https://chat.openai.com/g/g-kY3woUU1m-artmuse)**: A conversational AI designed to spark creativity and offer visual art inspirations through dialogue and DALL-E visualizations.
@@ -28,14 +28,13 @@ It walks the user through a process from brainstorming, outlining desired behavi
 ## Why - enhancing the GPT creation process
 I started this project because I find OpenAI's chatbot interface for creating GPTs frustrating in various ways. It tends to result in fairly short and general instructions that don't capture most of what the user says. It can't seem to follow direct instructions like "put exactly this text into the instructions". It will also overwrite previous instructions and lacks versioning.
 
-
 ## How - a structured approach
 In my experience, GPTs tend to struggle with lengthy and specific instructions. Better GPT Builder is designed to proceed step by step through a specific workflow, using several techniques to attempt to stay on track: 
 1. The instructions use lettered stages and numbered substages.
 2. The instructions direct the GPT to 'silently read' specific uploaded files using Code Interpreter at specific stages before proceeding. Those files contain more instructions.
 3. The instructions direct the GPT to use a specific format for all responses, and that format includes a reference to the letter and number of the current stage.
 
-So far this has resulted in pretty consistent behaviour. If it goes off the rails in a chat, **please consider submitting an issue so I can look at it.**
+So far this has resulted in pretty consistent behaviour. If it goes off the rails in a chat, **please consider submitting an issue so I can look at it.** Taken together, this permits the GPT to fairly reliable proceed through a linear process, where it decides when to move on through stages, and causes additional instructions to be injected through reading files.
 
 
 # GPTs: A terrible name for a fun thing
@@ -76,4 +75,4 @@ Sadly, OpenAI often messes around with GPTs in potentially consequential ways wi
 * 2023-11-19 - option to turn off using data to train models has reappeared in config panel for some GPTs and not others
 * 2023-11-20 - the configuration panel will accept .zip files, then code interpreter can unzip and read them. They will appear blank to the files browser however.
 * 2024-01-14 - instructions for browser significantly changed from previous, could affect operation of GPTs which use browser
-* 2024-01-15 - no setting apparently available for controlling use of data
+* 2024-01-15 - no setting apparently available for controlling use of data on newly created GPT, Additional Settings still exists on Better GPT Builder
