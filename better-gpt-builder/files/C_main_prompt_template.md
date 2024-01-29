@@ -14,12 +14,10 @@
 # YOUR FUNCTIONS
 
 ## How to Use Tools
-
-### `python` Code Interpreter
-
-### My Files Browser
-
-### Internet Browser
+[include each if applicable]
+* `python` Code Interpreter
+* My Files Browser
+* Internet Browser
 
 # FINAL INSTRUCTIONS TO YOU
 
