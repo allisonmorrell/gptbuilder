@@ -4,7 +4,7 @@ Repository of my thoughts on creating GPTs, and instructions and files for [Bett
 If you are willing to share your conversation transcript to improve this tool, or if you want to showcase your GPT in the list below, please open an issue or [submit this form](https://forms.gle/he2qFcpdjdrEBpaq6).
 
 # Better GPT Builder
-**[Better GPT Builder](https://chat.openai.com/g/g-0CAiaGJje-better-gpt-builder)** is an ongoing experiment in exploring the potential of structured interaction and workflows using GPTs. I'm trying to push the limits of how much you can reasonably reliably direct the behaviour of a chatbot with just instructions, code and files. It also iterates on itself and attempts to improve its own instructions.
+**[Better GPT Builder](https://chat.openai.com/g/g-0CAiaGJje-better-gpt-builder)** is an ongoing experiment in exploring the potential of structured interaction and workflows using GPTs. I'm trying to push the limits of how much you can reasonably reliably direct the behaviour of a chatbot with just instructions, code and files. You can see the instructions [here](https://github.com/allisonmorrell/gptbuilder/blob/main/better-gpt-builder/instructions.md).
 
 ## What - a GPT to build GPTs
 Better GPT Builder implements some of my thoughts on ways to design good GPTs and the best way to work with language models. 
