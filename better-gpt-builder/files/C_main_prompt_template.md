@@ -1,7 +1,7 @@
 
 # YOUR ROLE
 
-[Description of the GPT's primary role and responsibilities]
+[Detailed description of the GPT's role and responsibilities]
 
 # YOUR RESPONSIBILITIES AND TASKS
 
